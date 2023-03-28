@@ -1,11 +1,14 @@
+C - Pointers, arrays and strings
+
 #TASKS
-1. 98 Battery st.
+
+0. 98 Battery st.
 
 Write a function that takes a pointer to an int as parameter and updates the value it points to to 98.
 
-Prototype: void reset to 98(int *n);
+Prototype: void reset_to_98(int *n);
 
-1. Don't swap horses in crossing a stream 
+1. Don't swap horses in crossing a stream
 
 Write a function that swaps the values of two integers.
 
@@ -51,7 +54,7 @@ Prototype: void puts_half(char *str); The function should print the second half 
 
 Write a function that prints n elements of an array of integers, followed by a new line.
 
-Prototype: void print array(int *a, int n); where n is the number of elements of the array to be printed Numbers must be separated by comma, followed by a space The numbers should be displayed in the same order as they are stored in the array You are allowed to use printf
+Prototype: void print_array(int *a, int n); where n is the number of elements of the array to be printed Numbers must be separated by comma,followed by a space The numbers should be displayed in the same order as they are stored in the array You are allowed to use printf
 
 9. strcpy
 
@@ -68,3 +71,4 @@ Prototype: int _atoi(char *s); The number in the string can be preceded by an in
 Create a program that generates random valid passwords for the program 101-crackme.
 
 You are allowed to use the standard library You don’t have to pass the betty-style tests (you still need to pass the betty-doc tests) man srand, rand, time gdb and objdump can help
+
