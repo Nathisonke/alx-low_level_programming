@@ -6,7 +6,6 @@ char *create_buffer(char *file);
 void close_file(int fd);
 
 /**
- * 
  * @file: The name of the file buffer is storing chars for.
  * create_buffer - allocates 1024 bytes for a buffer,
  *
@@ -53,9 +52,9 @@ void close_file(int fd)
  *
  * Return: 0 when ran successfully.
  *
- * Description: If the argument count is incorrect - exit code 97,
- *              If file_from does not exist or cannot be read - exit code 98,
- *              If file_to cannot be created or written to - exit code 99,
+ * Description: If the argument count is incorrect - exit code 97
+ *              If file_from does not exist or cannot be read - exit code 98
+ *              If file_to cannot be created or written to - exit code 99.
  *              If file_to or file_from does not get closed - exit code 100.
  **/
 int main(int argc, char *argv[])
